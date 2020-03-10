@@ -28,7 +28,7 @@ timestamp = time.strftime("%d %B %Y %H:%M:%S %n", time.localtime())
 # Aktuelle Uhrzeit im deutschen Format
 str2: str = '\n'.join(pattern)
 # String, da list nicht ausgeschrieben werden kann
-with open('D:/Download/Seminararbeit/html_source_code.txt', 'w') as f:
+with open('C:/Users/fabia/PycharmProjects/Scrap_Alexa/most_used_german_sites.txt', 'w') as f:
     # Uhrzeit und Liste in Txt speichern
     f.write(timestamp)
     f.write(str2)
